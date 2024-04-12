@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# SUM
+echo $(( 4 + 2 ))
+
+# Sum with variables
+x=4
+y=2
+echo $(( $x + $y ))
+
+# We also have a shortcurt with variable without $ symbol
+echo $(( x + y ))
+echo $(( x - y ))
+echo $(( x * y ))
+echo $(( x / y ))
+echo $(( 4 ** 2 )) # four raised to the power of two, result is 16
+echo $(( 5 % 3 )) # Here we are going to calculate the remained of the division, result is 2
+
+# Airthmethic operations order
+# The order matters with a () symbols
+echo $(( (x + x) + (x * x) )) # Result is 24
+
+# Decimal numbers aren't cover in a bash program, we can use BC but we are going to watch that in another video
+

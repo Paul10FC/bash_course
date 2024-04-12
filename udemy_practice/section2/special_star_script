@@ -1,0 +1,5 @@
+#!/bin/bash
+# Do a separation for parameters according the IFS
+IFS=,
+echo "$*"
+

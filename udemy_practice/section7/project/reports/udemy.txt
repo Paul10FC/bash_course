@@ -1,0 +1,12 @@
+HTTP/1.1 301 Moved Permanently
+Date: Fri, 12 Apr 2024 22:34:49 GMT
+Connection: keep-alive
+Cache-Control: max-age=3600
+Expires: Fri, 12 Apr 2024 23:34:49 GMT
+Location: https://www.udemy.com/
+Set-Cookie: __cf_bm=oMs2cMyV47YlwJY31B8lx0KEfcXH5qXyz6iz3nBncT0-1712961289-1.0.1.1-SbWKtBfVayBdA1ZmWBcgVc04S58m87_uW6S06lkk7Y7vY6ngJ2HRLHl1lXkkJLmZudI9alDBOqpFEoX.fTmeVA; path=/; expires=Fri, 12-Apr-24 23:04:49 GMT; domain=.udemy.com; HttpOnly; SameSite=None
+X-Content-Type-Options: nosniff
+Set-Cookie: __cfruid=4119c9728a9a2c49a9a8179768d54171a4f10679-1712961289; path=/; domain=.udemy.com; HttpOnly
+Server: cloudflare
+CF-RAY: 8736af9d3b02518b-DEN
+

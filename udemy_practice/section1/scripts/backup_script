@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Author: Paul Flores
+# Date Created: 19/03/2024
+# Last Modified: 19/03/2024
+
+# Description
+# A program to backup all files in a home directory
+
+# Usage
+# backup_script
+
+DIRECTORY=~/Github_Repositories/bash_course/my_backup/*
+USER_NAME=paul
+CURRENT_DIR=$(pwd)
+DATE=$(date +%d-%m-%Y_H-%M-%S)
+
+echo "Hello ${USER_NAME^}"
+echo "I will now back up your $DIRECTORY directory"
+
+tar -cf "$CURRENT_DIR/backup_script_$DATE".tar ~/Github_Repositories/bash_course/my_backup/* 2>/dev/null
+
+echo "The .tar file has been saved at $CURRENT_DIR"
+echo "Backup Completed Successfully"
+exit 0
+
+

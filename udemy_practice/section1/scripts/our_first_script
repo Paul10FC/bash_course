@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# Author: Paul Flores
+# Date Created: 19/03/2024
+# Last Modified: 19/03/2024
+
+# Description
+# This is a program that prints a Hello World from a bash
+
+# Usage
+# our_first_script
+
+echo "Hello world!"
+exit 0
