@@ -1,0 +1,1 @@
+shellcheck.net -> Is used for fix sintax errors
