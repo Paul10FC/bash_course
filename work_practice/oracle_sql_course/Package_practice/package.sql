@@ -11,11 +11,11 @@ create or replace package bank_package as
     return number;
     function update_payment(sequence NUMBER, amount NUMBER, interest_rate NUMBER, desc_mov VARCHAR2, start_date DATE, end_date DATE)
     return number;
-    function delete_payment(sequence NUMBER, amount NUMBER, interest_rate NUMBER, desc_mov VARCHAR2, start_date DATE, end_date DATE)
+    function delete_payment(id NUMBER)
     return number;
     --------------------------------------Procedures---------------------------------------------------------------------------------------------
-    procedure payment_interest_calculate(sequence NUMBER);
-    procedure view_payments(pag_to_watch NUMBER);
-    procedure view_customers(pag_to_watch NUMBER);
+    procedure payment_interest_calculate(id NUMBER);
+    procedure view_payments(pag_to_watch_payments NUMBER);
+    procedure view_customers(pag_to_watch_customers NUMBER);
 end bank_package;
 ;
